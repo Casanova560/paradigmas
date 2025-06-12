@@ -1,5 +1,5 @@
-1. Expresion: CAP[IÍ]TULO\s+[IVXLCDM0-9]+ | Resultados: 129
-2. Expresion: \b(\w+)\s+y\s+(\w+)\b | Resultados: 8899
-3. Expresion: \b(?:pra|pre|pri|pro|pru)d | Resultados: 112
-4. Expresion: \b(cra|cre|cri|cro|cru)\w* | Resultados únicos: 113
-5. Expresion: \b\w*(cho|cha|che|chi|chu)\b | Resultados: 4513
+1. Expresión: (?i)\bcap[ií]tulo\s+[IVXLC0-9]+\b | Resultados: 124 – cabeceras de capítulo
+2. Expresión: \b\w+\s+y\s+\w+\b | Resultados: 8894 – ‘y’ entre palabras
+3. Expresión: \bpr[aeiou]d\b | Resultados: 0 – pra|pre|pri|pro|pru + d
+4. Expresión: \b(?:cra|cre|cri|cro|cru)\w*\b | Resultados: 839 – palabras que empiezan cra|cre|…|cru
+5. Expresión: \b\w*(?:cho|cha|che|chi|chu)\b | Resultados: 4501 – palabras que terminan en cho|cha|…|chu
